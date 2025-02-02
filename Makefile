@@ -3,3 +3,6 @@ install: # install dependencies
 
 brain-games:
 	node bin/brain-games.js
+
+publish: # publish to npm
+	npm publish --dry-run
