@@ -2,7 +2,7 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/SergiusBlack/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/SergiusBlack/qa-auto-engineer-javascript-project-44/actions)",
-  "type":"module",
+  "type": "module",
   "main": "bin/brain-games.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/SergiusBlack/qa-auto-engineer-javascript-project-44/issues"
   },
-  "homepage": "https://github.com/SergiusBlack/qa-auto-engineer-javascript-project-44#readme"
+  "homepage": "https://github.com/SergiusBlack/qa-auto-engineer-javascript-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
 }
