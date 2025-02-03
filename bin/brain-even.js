@@ -15,18 +15,19 @@ let answer = 'no';
 let countOfCorrectAnswers = 0;
 
 while (countOfCorrectAnswers < 3) {
-  number = Math.floor(Math.random() * 100);
+  number = Math.round(Math.random() * 100);
 
   console.log('Answer "yes" if the number is even, otherwise answer "no".');
   console.log(`Question: ${number}`);
 
+  const result = (number % 2 === 0) ? 'yes' : 'no';
   answer = readlineSync.question('Your answer: ');
 
-  if ((number % 2 === 0 && answer === 'yes') || (number % 2 !== 0 && answer === 'no')) {
+  if (result === answer) {
     console.log('Correct!');
     countOfCorrectAnswers += 1;
   } else {
-    console.log(`'${answer}' is wrong answer ;(. Correct answer was 'no'.`);
+    console.log(`'${answer}' is wrong answer ;(. Correct answer was '${result}'.`);
     console.log(`Let's try again, ${name}!`);
     break;
   }
