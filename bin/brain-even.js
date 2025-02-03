@@ -11,7 +11,7 @@ const name = readlineSync.question('May I have your name?: ');
 console.log(`Hello, ${name}!`);
 
 let number = 0;
-let answer = 'no';
+let answer = '';
 let countOfCorrectAnswers = 0;
 
 while (countOfCorrectAnswers < 3) {
