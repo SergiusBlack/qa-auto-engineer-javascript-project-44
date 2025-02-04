@@ -1,6 +1,13 @@
 import readlineSync from 'readline-sync';
 import * as gen from './quest-gen.js';
 
+const introduction = () => {
+  console.log('brain-games');
+  console.log('Welcome to the Brain Games!');
+  const name = readlineSync.question('May I have your name?: ');
+  console.log(`Hello, ${name}!`);
+};
+
 const userIntroduction = (nameGame) => {
   console.log(nameGame);
   console.log('');
@@ -59,4 +66,4 @@ const runGame = (nameGame, userName, numOfAttempts) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export { userIntroduction, questionOutput, runGame };
+export { introduction, userIntroduction, questionOutput, runGame };

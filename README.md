@@ -9,13 +9,13 @@
 This is a command console game. You are getting introducted, answering questions and trying to win by giving three correct answers in a row.
 
 ### Requirements:
-Any CLI application(Bash, PowerShell, etc.), NodeJS required;
+Any CLI application(Bash, PowerShell, etc.), NodeJS required.
 
 ### Running:
 "node <bin/<brain-*.js>>" or "make <brain-*>"(not working on Windows, until "make" plugin installed)
 examples: "node ./bin/brain-even.js" or "make brain-calc"
 
-FYI: 'brain-games.js' is running all the games in loop until you enter exit='no'.
+FYI: 'brain-games.js' is running all the games in loop until you enter exit='no'. <==(not any more, no passing the tests)
 
 #### Demo for brain-even:
 https://asciinema.org/a/q7RKidY4XcjEDMuHJaGsAIaij
