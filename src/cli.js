@@ -25,7 +25,7 @@ const questionOutput = (nameGame) => {
       output = 'What is the result of the expression?';
       break;
     case 'brain-prime':
-      output = 'Answer "yes" if given number is prime, otherwise answer "no".';
+      output = 'Answer "yes" if given number is prime. Otherwise answer "no".';
       break;
     case 'brain-even':
       output = 'Answer "yes" if the number is even, otherwise answer "no".';
