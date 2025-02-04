@@ -66,4 +66,5 @@ const runGame = (nameGame, userName, numOfAttempts) => {
   console.log(`Congratulations, ${userName}!`);
 };
 
-export { introduction, userIntroduction, questionOutput, runGame };
+export default introduction;
+export { userIntroduction, questionOutput, runGame };
