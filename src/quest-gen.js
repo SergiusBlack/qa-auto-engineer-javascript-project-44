@@ -83,7 +83,7 @@ const genQuestionAnswerForBrainCalc = (numAInterval = '1..100', numBInterval = '
   } else {
     numberB = numRandomizer(numBInterval);
   }
-  result = `${numberA + operand + numberB}#${getExpressionResult(numberA, numberB, operand)}`;
+  result = `${numberA} ${operand} ${numberB}#${getExpressionResult(numberA, numberB, operand)}`;
   return result;
 };
 
