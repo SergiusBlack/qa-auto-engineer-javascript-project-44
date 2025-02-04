@@ -21,20 +21,20 @@ const questionOutput = (nameGame) => {
   let output = '';
 
   switch (nameGame) {
-    case 'brain-calc':
-      output = 'What is the result of the expression?';
-      break;
-    case 'brain-prime':
-      output = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-      break;
     case 'brain-even':
       output = 'Answer "yes" if the number is even, otherwise answer "no".';
+      break;
+    case 'brain-calc':
+      output = 'What is the result of the expression?';
       break;
     case 'brain-gcd':
       output = 'Find the greatest common divisor of given numbers.';
       break;
     case 'brain-progression':
       output = 'What number is missing in the progression?';
+      break;
+    case 'brain-prime':
+      output = 'Answer "yes" if given number is prime. Otherwise answer "no".';
       break;
     default:
       output = '<Missing Data>';
