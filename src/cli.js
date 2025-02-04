@@ -28,7 +28,7 @@ const questionOutput = (nameGame) => {
       output = 'Answer "yes" if given number is prime. Otherwise answer "no".';
       break;
     case 'brain-even':
-      output = 'Answer "yes" if the number is even, otherwise answer "no".';
+      output = 'Answer "yes" if the number is even. Otherwise answer "no".';
       break;
     case 'brain-gcd':
       output = 'Find the greatest common divisor of given numbers.';
